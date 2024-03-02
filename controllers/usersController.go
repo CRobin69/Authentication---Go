@@ -12,6 +12,7 @@ import (
 	"golang.org/x/crypto/bcrypt"
 )
 
+// ujicba git
 func Signup(c *gin.Context) {
 	// get email / password from request
 	var body struct {
